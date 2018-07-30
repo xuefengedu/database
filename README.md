@@ -18,6 +18,40 @@ Date:   Mon Jul 31 21:10:05 2000 +0200
 
 ```
 
+## Postgres first 4 commits: https://github.com/postgres/postgres
+
+```
+commit e72ca17f77c4acfc4d50926ac30d28a6283127f3 (HEAD -> jumping-test)
+Author: Marc G. Fournier <scrappy@hub.org>
+Date:   Fri Jul 12 04:53:59 1996 +0000
+
+    fixes for several potential null pointer dereferences
+
+    submitted by: Paul "Shag" Walmsley <ccshag@cclabs.missouri.edu>
+
+commit 950b6ab02272057811dcb4cdf2edcdc2f01b81b7
+Author: Marc G. Fournier <scrappy@hub.org>
+Date:   Tue Jul 9 06:39:19 1996 +0000
+
+    Fixes: Using LIKE or ~ operator on text type files which are null valued
+           causes segmentation fault.
+
+    Thanks to: Salvador Ortiz Garcia, Robert Patrick, Paul 'Shag' Walmsley,
+               and James Cooper for finding and fixing the problem.
+
+commit 25bb71835f1d3c3ab85cfa33dbdf95419d003c2a
+Author: Marc G. Fournier <scrappy@hub.org>
+Date:   Tue Jul 9 06:35:38 1996 +0000
+
+    Fix: Can't drop tables with names longer than 16 characters.
+
+commit d31084e9d1118b25fd16580d9d8c2924b5740dff (tag: PG95-1_01)
+Author: Marc G. Fournier <scrappy@hub.org>
+Date:   Tue Jul 9 06:22:35 1996 +0000
+
+    Postgres95 1.01 Distribution - Virgin Sources
+
+```
 
 ## sqlite: https://www.sqlite.org/src/info/6f3655f79f9b6fc9
 
@@ -74,3 +108,4 @@ Date:   Mon Jul 31 21:10:05 2000 +0200
 **main.c：** SQLite库的主文件。此文件中的例程实现了库的程序员接口。其他文件中的例程供SQLite内部使用，不应由库用户访问。
 
 **where.c：** 此模块包含生成用于处理SQL语句的WHERE子句的VDBE代码的C代码。此处还可以找到生成VDBE代码以评估表达式的子例程。
+

@@ -18,6 +18,17 @@ Date:   Mon Jul 31 21:10:05 2000 +0200
 
 ```
 
+## Postgres first 1 commits: https://github.com/postgres/postgres
+
+```
+commit d31084e9d1118b25fd16580d9d8c2924b5740dff (tag: PG95-1_01)
+Author: Marc G. Fournier <scrappy@hub.org>
+Date:   Tue Jul 9 06:22:35 1996 +0000
+
+    Postgres95 1.01 Distribution - Virgin Sources
+
+```
+
 ## Postgres first 4 commits: https://github.com/postgres/postgres
 
 ```
